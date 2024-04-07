@@ -11,6 +11,7 @@ class HerMessageBubble extends StatelessWidget {
       //mainAxisAlignment: MainAxisAlignment.start, "No se exactamente por que no sirve este metodo"
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        Text("Si hola?"),
         Container(
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(20), color: Color.secondary),
